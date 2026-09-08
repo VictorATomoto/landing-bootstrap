@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Cafeteria Aroma</title>
+
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  >
+
+  <style>
+    .hero-btn {
+      background-color: #8b4513;
+      border-color: #8b4513;
+    }
+
+    .hero-btn:hover {
+      background-color: #6f360f;
+      border-color: #6f360f;
+    }
+
+    .hero {
+      background-color: #fff8f0;
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container">
+
+      <a class="navbar-brand fw-bold" href="#">
+        ☕ Cafeteria Aroma
+      </a>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Abrir menu"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+
+        <ul class="navbar-nav ms-auto">
+
+          <li class="nav-item">
+            <a class="nav-link" href="#cardapio">
+              Cardápio
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#sobre">
+              Sobre
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#contato">
+              Contato
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+  <div class="container pt-4">
+
+    <div class="alert alert-success" role="alert">
+      <strong>Novidade!</strong>
+      Experimente nosso novo café especial da semana.
+    </div>
+
+  </div>
+
+  <main>
+
+    <section class="hero text-center py-5">
+
+      <div class="container">
+
+        <h1 class="display-4 fw-bold">
+          Seu café, do seu jeito.
+        </h1>
+
+        <p class="lead text-body-secondary">
+          Cafés especiais, doces artesanais e momentos
+          que ficam na memória.
+        </p>
+
+        <a
+          href="#cardapio"
+          class="btn btn-primary btn-lg px-4 hero-btn"
+        >
+          Ver cardápio
+        </a>
+
+      </div>
+
+    </section>
+
+    <section id="cardapio" class="container py-5">
+
+      <div class="text-center mb-5">
+
+        <h2 class="fw-bold">
+          Nossos favoritos
+        </h2>
+
+        <p class="text-body-secondary">
+          Escolha seu próximo momento de sabor.
+        </p>
+
+      </div>
+
+
+      <div class="row g-4">
+
+
+        <div class="col-lg-4">
+
+          <div class="card h-100 shadow-sm">
+
+            <img
+              src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=80"
+              class="card-img-top"
+              alt="Xícara de café especial"
+            >
+
+            <div class="card-body d-flex flex-column">
+
+              <h3 class="card-title">
+                Café Especial
+              </h3>
+
+              <p class="card-text">
+                Grãos selecionados e preparados para destacar
+                aromas e sabores únicos.
+              </p>
+
+              <a href="#" class="btn btn-primary mt-auto">
+                Ver mais
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div class="col-lg-4">
+
+          <div class="card h-100 shadow-sm">
+
+            <img
+              src="https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=800&q=80"
+              class="card-img-top"
+              alt="Doces artesanais"
+            >
+
+            <div class="card-body d-flex flex-column">
+
+              <h3 class="card-title">
+                Doces Artesanais
+              </h3>
+
+              <p class="card-text">
+                Bolos, cookies e outras delícias produzidas
+                diariamente em nossa cozinha.
+              </p>
+
+              <a href="#" class="btn btn-primary mt-auto">
+                Ver mais
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+
+        <div class="col-lg-4">
+
+          <div class="card h-100 shadow-sm">
+
+            <img
+              src="https://images.unsplash.com/photo-1533777857889-4be7c70b33f7?auto=format&fit=crop&w=800&q=80"
+              class="card-img-top"
+              alt="Brunch servido em uma mesa"
+            >
+
+            <div class="card-body d-flex flex-column">
+
+              <h3 class="card-title">
+                Brunch
+              </h3>
+
+              <p class="card-text">
+                Uma combinação especial de cafés, pães,
+                frutas e acompanhamentos.
+              </p>
+
+              <a href="#" class="btn btn-primary mt-auto">
+                Ver mais
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <section id="sobre" class="container py-5">
+
+      <div class="row align-items-center">
+
+        <div class="col-lg-6">
+
+          <h2 class="fw-bold mb-3">
+            Sobre a Cafeteria Aroma
+          </h2>
+
+          <p>
+            A Cafeteria Aroma nasceu para transformar uma simples
+            pausa para o café em um momento especial.
+          </p>
+
+          <p>
+            Trabalhamos com grãos selecionados, ingredientes
+            frescos e muito carinho em cada preparo.
+          </p>
+
+        </div>
+
+        <div class="col-lg-6">
+
+          <div class="bg-body-tertiary rounded p-5 text-center">
+
+            <span class="display-1">
+              ☕
+            </span>
+
+            <p class="mt-3 mb-0">
+              Café fresco todos os dias.
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer
+    id="contato"
+    data-bs-theme="dark"
+    class="bg-body text-body py-5 mt-5"
+  >
+
+    <div class="container text-center">
+
+      <h2 class="fw-bold">
+        Cafeteria Aroma
+      </h2>
+
+      <p>
+        Rua do Café, 100
+      </p>
+
+      <p>
+        Segunda a sábado · 8h às 19h
+      </p>
+
+      <p class="mb-0">
+        © 2026 Cafeteria Aroma
+      </p>
+
+    </div>
+
+  </footer>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
